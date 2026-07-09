@@ -7,7 +7,14 @@
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #74ebe5 0%, #d4f1f4 100%);
+            
+            /* Direct link to your Ram Mandir background image */
+            background-image: url("https://images.news18.com/ibnlive/uploads/2020/08/1596532888_ram-mandir-in-ayodhya-photos-10.jpg"); 
+            
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             margin: 0;
             padding: 0;
             display: flex;
@@ -18,10 +25,13 @@
         }
 
         .container {
-            background: white;
+            /* Sleek frosted glass look to let the background show through */
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
             padding: 40px;
             border-radius: 20px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
             text-align: center;
             max-width: 350px;
             width: 100%;
@@ -31,7 +41,7 @@
             width: 100px;
             height: 100px;
             border-radius: 50%;
-            background-color: #05445e;
+            background-color: #d97706; /* Warm amber/saffron profile accent */
             margin: 0 auto 20px auto;
             display: flex;
             justify-content: center;
@@ -39,18 +49,20 @@
             color: white;
             font-size: 32px;
             font-weight: bold;
+            box-shadow: 0 4px 10px rgba(217, 119, 6, 0.3);
         }
 
         h1 {
             font-size: 24px;
             margin-bottom: 5px;
-            color: #05445e;
+            color: #7c2d12; /* Deep earthy terracotta color for text */
         }
 
         p {
             font-size: 14px;
-            color: #757575;
+            color: #451a03;
             margin-bottom: 30px;
+            font-weight: 500;
         }
 
         .links-container {
@@ -60,32 +72,30 @@
         }
 
         .link-button {
-            background-color: #189ad3;
+            background-color: #ea580c; /* High-contrast elegant orange button */
             color: white;
             text-decoration: none;
             padding: 12px 20px;
             border-radius: 50px;
             font-weight: 600;
             transition: all 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
 
         .link-button:hover {
-            background-color: #05445e;
+            background-color: #7c2d12; /* Darker tone on hover */
             transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Profile Section -->
         <div class="profile-img">🚀</div>
         <h1>Atharv</h1>
         <p>Welcome to my official space! Check out my links below.</p>
 
-        <!-- Links Section -->
         <div class="links-container">
             <a href="https://github.com" target="_blank" class="link-button">Atharv's GitHub</a>
             <a href="https://linkedin.com" target="_blank" class="link-button">Connect on LinkedIn</a>
